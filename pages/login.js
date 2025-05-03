@@ -8,7 +8,7 @@ export default function LoginPage() {
     <div style={loginStyles.container}>
       <div style={loginStyles.card}>
         <h1 style={loginStyles.header}>Login as {role}</h1>
-<form action="https://propertybooking.onrender.com/auth/login" method="POST" style={loginStyles.form}>
+<form action="https://webapphnhf.onrender.com/auth/login" method="POST" style={loginStyles.form}>
           <input type="email" name="email" placeholder="Email" required style={loginStyles.input} />
           <input type="text" name="fullName" placeholder="Full Name" required style={loginStyles.input} />
           <input type="password" name="password" placeholder="Password" required style={loginStyles.input} />

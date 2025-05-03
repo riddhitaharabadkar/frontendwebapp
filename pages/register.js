@@ -8,7 +8,7 @@ export default function RegisterPage() {
     <div style={registerStyles.container}>
       <div style={registerStyles.card}>
         <h1 style={registerStyles.header}>Register as {role}</h1>
-<form action="https://frontendwebapp1.vercel.app/auth/register" method="POST" style={registerStyles.form}>
+<form action="https://webapphnhf.onrender.com/auth/register" method="POST" style={registerStyles.form}>
           <input type="hidden" name="role" value={role || 'seller'} />
           <input type="email" name="email" placeholder="Email" required style={registerStyles.input} />
           <input type="text" name="fullName" placeholder="Full Name" required style={registerStyles.input} />
